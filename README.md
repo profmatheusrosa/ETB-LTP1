@@ -2,12 +2,12 @@
 
 ## Sumário 📚
 
-- [Objetivo do Projeto](#objetivo-do-projeto)
-- [Descrição do Projeto](#descrição-do-projeto)
-- [Conceitos Utilizados](#conceitos-utilizados)
-- [Requisitos do Projeto](#requisitos-do-projeto)
-- [Exemplos de Execução do Sistema Escolar](#exemplos-de-execução-do-sistema-escolar)
-- [Critérios de Avaliação](#critérios-de-avaliação)
+- [Objetivo do Projeto 🎯](#objetivo-do-projeto-)
+- [Descrição do Projeto 📜](#descrição-do-projeto-)
+- [Conceitos Utilizados](#conceitos-utilizados-)
+- [Requisitos do Projeto 📝](#requisitos-do-projeto-)
+- [Exemplos de Execução do Sistema Escolar 💻](#exemplos-de-execução-do-sistema-escolar-)
+- [Critérios de Avaliação ✅](#critérios-de-avaliação-)
 
 ---
 
@@ -19,7 +19,7 @@ Este sistema escolar terá duas entidades principais: **Alunos** e **Funcionári
 
 ---
 
-## Conceitos Utilizados 
+## Conceitos Utilizados 💡
 Serão utilizados os seguintes conceitos relativos ao plano de curso para realização do projeto:
 
 1. **Programação Orientada a Objetos (POO):**  
