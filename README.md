@@ -17,8 +17,6 @@ Desenvolver um sistema simples de cadastro para uma escola, incluindo alunos e f
 ## Descrição do Projeto 📜
 Este sistema escolar terá duas entidades principais: **Alunos** e **Funcionários**. A ideia é criar um programa que permita cadastrar, listar e exibir informações desses indivíduos. Para isso, serão utilizadas classes, herança, encapsulamento e polimorfismo.
 
----
-
 ## Conceitos Utilizados 💡
 Serão utilizados os seguintes conceitos relativos ao plano de curso para realização do projeto:
 
