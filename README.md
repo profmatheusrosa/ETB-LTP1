@@ -8,6 +8,49 @@ Este sistema escolar terá duas entidades principais: **Alunos** e **Funcionári
 
 ---
 
+## Conceitos Utilizados 
+Serão utilizados os seguintes conceitos relativos ao plano de curso para realização do projeto:
+
+1. **Programação Orientada a Objetos (POO):**  
+   Introdução aos princípios básicos de POO, como organização do código em classes e objetos.
+
+2. **Classes e Objetos:**  
+   Criação e utilização de classes como modelos e instâncias representando objetos.
+
+3. **Encapsulamento:**  
+   Uso de modificadores de acesso (`private`, `public`) e métodos `getters` e `setters`.
+
+4. **Herança:**  
+   Criação de subclasses para aproveitar características de uma classe base.
+
+5. **Polimorfismo:**  
+   Sobrescrita de métodos para personalizar comportamentos em subclasses.
+
+6. **Sobrescrita de Métodos:**  
+   Modificação de métodos da classe base nas subclasses.
+
+7. **Listas e Estruturas de Dados:**  
+   Uso de `ArrayList` para armazenar múltiplos objetos.
+
+8. **Iteração com laços de repetição:**  
+   Percorrendo listas com `for-each` ou outros laços.
+
+9. **Entrada e Saída de Dados (I/O):**  
+   - Coleta de informações com `Scanner`.  
+   - Exibição de mensagens no console.
+
+10. **Validação de Dados:**  
+    Verificação e tratamento de entradas inválidas.
+
+11. **Menu e Fluxo de Controle:**  
+    Controle do programa com estruturas como `switch-case` ou `if-else`.
+
+12. **Construtores:**  
+    Métodos especiais para inicializar objetos.
+
+13. **Documentação:**  
+    Comentários claros no código para facilitar a leitura e manutenção.
+
 ## 📝 Requisitos do Projeto
 
 ### 1. Classe Pessoa
@@ -112,4 +155,4 @@ ID Funcionario: F9876
 Cargo: Professora
 ------------
 ```
-
+## Critérios de Avaliação ✅
