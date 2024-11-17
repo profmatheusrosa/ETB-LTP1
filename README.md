@@ -1,9 +1,20 @@
 # 🏫 ETB LTP1 Avaliação (A3): Sistema Escolar 
 
-## 🎯Objetivo do Projeto 
+## Sumário 📚
+
+- [Objetivo do Projeto](#objetivo-do-projeto)
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Conceitos Utilizados](#conceitos-utilizados)
+- [Requisitos do Projeto](#requisitos-do-projeto)
+- [Exemplos de Execução do Sistema Escolar](#exemplos-de-execução-do-sistema-escolar)
+- [Critérios de Avaliação](#critérios-de-avaliação)
+
+---
+
+## Objetivo do Projeto 🎯
 Desenvolver um sistema simples de cadastro para uma escola, incluindo alunos e funcionários, que permita praticar conceitos básicos de Programação Orientada a Objetos (POO) em Java.
 
-## 📜 Descrição do Projeto
+## Descrição do Projeto 📜
 Este sistema escolar terá duas entidades principais: **Alunos** e **Funcionários**. A ideia é criar um programa que permita cadastrar, listar e exibir informações desses indivíduos. Para isso, serão utilizadas classes, herança, encapsulamento e polimorfismo.
 
 ---
@@ -51,7 +62,7 @@ Serão utilizados os seguintes conceitos relativos ao plano de curso para realiz
 13. **Documentação:**  
     Comentários claros no código para facilitar a leitura e manutenção.
 
-## 📝 Requisitos do Projeto
+## Requisitos do Projeto 📝
 
 ### 1. Classe Pessoa
 - **Atributos:** `nome`, `idade`, `endereco`, `matricula`
@@ -84,7 +95,7 @@ Serão utilizados os seguintes conceitos relativos ao plano de curso para realiz
 
 ---
 
-## 💻 Exemplos de Execução do Sistema Escolar
+## Exemplos de Execução do Sistema Escolar 💻
 ### 1. Inicialização do Sistema
 ```
 Menu:
@@ -156,3 +167,15 @@ Cargo: Professora
 ------------
 ```
 ## Critérios de Avaliação ✅
+
+| Critério                                           | Pontuação |
+|----------------------------------------------------|-----------|
+| Funcionamento do sistema (cadastro e listagem)     | 3.0       |
+| Implementação correta de classes e herança         | 2.0       |
+| Utilização de encapsulamento (atributos e métodos) | 1.0       |
+| Uso de polimorfismo (sobrescrita de métodos)       | 1.5       |
+| Estrutura de menu funcional e amigável             | 1.0       |
+| Organização do código e boas práticas              | 1.0       |
+| Validação e robustez (tratamento de entradas)      | 0.5       |
+| Documentação e comentários no código               | 0.5       |
+| **Total**                                          | **10.0**  |
