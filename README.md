@@ -1,4 +1,4 @@
-# 🏫 ETB LTP1 Avaliação (A3): Sistema Escolar 
+# ETB LTP1 Avaliação (A3): Sistema Escolar  🏫
 
 ## Sumário 📚
 
