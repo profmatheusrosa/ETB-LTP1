@@ -79,7 +79,7 @@ Serão utilizados os seguintes conceitos relativos ao plano de curso para realiz
 ### 3. Classe Funcionario (Subclasse de Pessoa)
 - **Atributos adicionais:** `cargo` (cargo ocupado na escola)
 - **Métodos:**
-  - Construtor para inicializar `nome`, `idade`, `endereco`, `idFuncionario`, `cargo`
+  - Construtor para inicializar `nome`, `idade`, `endereco`, `cargo`
   - Sobrescrever o método `exibirInformacoes()` para incluir o cargo na exibição
   - Métodos `getters` e `setters` para `cargo`
 
@@ -118,9 +118,16 @@ Matricula: A12345
 Curso: Engenharia
 ```
 **Resposta do Sistema:**  
-Após o cadastro, o sistema exibe uma confirmação:
+Após o cadastro, o sistema exibe uma confirmação e exibe o menu novamente:
 ```
 Aluno cadastrado com sucesso!
+
+Menu:
+1. Cadastrar Aluno
+2. Cadastrar Funcionario
+3. Listar todos
+0. Sair
+Escolha uma opcao:
 ```
 ### 3. Cadastrar um Funcionário 
 **Entrada do Usuário:** 
@@ -137,9 +144,16 @@ Matricula: A12345
 Cargo: Professora
 ```
 **Resposta do Sistema:**  
-Após o cadastro, o sistema exibe uma confirmação:
+Após o cadastro, o sistema exibe uma confirmação e exibe o menu novamente:
 ```
 Funcionario cadastrado com sucesso!
+
+Menu:
+1. Cadastrar Aluno
+2. Cadastrar Funcionario
+3. Listar todos
+0. Sair
+Escolha uma opcao:
 ```
 
 ### 4. Listar Todos os Cadastros
@@ -149,7 +163,7 @@ O usuário escolhe a opção 3 para listar todos os cadastros de alunos e funcio
 Escolha uma opcao: 3
 ```
 #### Resposta do Sistema
-O sistema exibe as informações detalhadas de cada pessoa cadastrada: 
+O sistema exibe as informações detalhadas de cada pessoa cadastrada e exibe o menu novamente: 
 ```
 Nome: João Silva
 Idade: 20
@@ -163,6 +177,13 @@ Endereco: Rua B, 456
 ID Funcionario: F9876
 Cargo: Professora
 ------------
+
+Menu:
+1. Cadastrar Aluno
+2. Cadastrar Funcionario
+3. Listar todos
+0. Sair
+Escolha uma opcao:
 ```
 ## Critérios de Avaliação ✅
 
@@ -171,9 +192,7 @@ Cargo: Professora
 | Funcionamento do sistema (cadastro e listagem)     | 3.0       |
 | Implementação correta de classes e herança         | 2.0       |
 | Utilização de encapsulamento (atributos e métodos) | 1.0       |
-| Uso de polimorfismo (sobrescrita de métodos)       | 1.5       |
-| Estrutura de menu funcional e amigável             | 1.0       |
-| Organização do código e boas práticas              | 1.0       |
-| Validação e robustez (tratamento de entradas)      | 0.5       |
-| Documentação e comentários no código               | 0.5       |
+| Uso de polimorfismo (sobrescrita de métodos)       | 1.0       |
+| Apresentação e explicação do código                | 2.0       |
+| Documentação e comentários no código               | 1.0       |
 | **Total**                                          | **10.0**  |
