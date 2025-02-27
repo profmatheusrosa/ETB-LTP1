@@ -77,7 +77,6 @@ public class MaiorOuIgual {
 Este programa lê três números diferentes e os imprime na tela em ordem crescente.
 ```java
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class OrdemCrescente {
     public static void main(String[] args) {
@@ -91,12 +90,26 @@ public class OrdemCrescente {
         System.out.print("Digite o terceiro número: ");
         int num3 = scanner.nextInt();
         
-        // Coloca os números em um array e ordena
-        int[] numeros = {num1, num2, num3};
-        Arrays.sort(numeros);
-        
-        // Imprime os números em ordem crescente
-        System.out.println("Os números em ordem crescente são: " + numeros[0] + ", " + numeros[1] + ", " + numeros[2]);
+        // Ordena e imprime os números em ordem crescente
+        if (num1 < num2 && num1 < num3) {
+            if (num2 < num3) {
+                System.out.println("Os números em ordem crescente são: " + num1 + ", " + num2 + ", " + num3);
+            } else {
+                System.out.println("Os números em ordem crescente são: " + num1 + ", " + num3 + ", " + num2);
+            }
+        } else if (num2 < num1 && num2 < num3) {
+            if (num1 < num3) {
+                System.out.println("Os números em ordem crescente são: " + num2 + ", " + num1 + ", " + num3);
+            } else {
+                System.out.println("Os números em ordem crescente são: " + num2 + ", " + num3 + ", " + num1);
+            }
+        } else {
+            if (num1 < num2) {
+                System.out.println("Os números em ordem crescente são: " + num3 + ", " + num1 + ", " + num2);
+            } else {
+                System.out.println("Os números em ordem crescente são: " + num3 + ", " + num2 + ", " + num1);
+            }
+        }
         
         scanner.close();
     }
