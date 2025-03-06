@@ -2,7 +2,7 @@
 Repositório com conteúdo e orientações da disciplina LTP1 da ETB
 
 ## Slides das aulas
-[def]
+https://abre.ai/etb-ltp1-slides
 
 ## Conteúdo
 | **Tópicos Principais**        | **Subtópicos**                      | **Detalhes**                                                   |
@@ -25,6 +25,3 @@ Repositório com conteúdo e orientações da disciplina LTP1 da ETB
 |                               | 4.2 Coleções de Objetos | List, Set, Map, e suas implementações |
 | **5. Manipulação de String**  | 5.1 Métodos da Classe String | concat, substring, replace, etc. |
 |                               | 5.2 StringBuilder e StringBuffer | Manipulação eficiente de strings | 
-
-
-[def]: https://abre.ai/etb-ltp1-slides
