@@ -2,7 +2,7 @@
 Repositório com conteúdo e orientações da disciplina LTP1 da ETB
 
 ## Slides das aulas
-https://docs.google.com/presentation/d/1kn5jDIV1z3z1ijyKAqjVhIdoWdUSwZreqJeT2o863DM/edit?usp=sharing
+https://abre.ai/etb-ltp1-slides
 
 ## Conteúdo
 Elementos básicos da linguagem visual:
@@ -31,3 +31,6 @@ Programação Orientada a Objetos:
 - Coleção de objetos
 
 Manipulação de String
+
+
+[def]: https://abre.ai/etb-ltp1-slides
