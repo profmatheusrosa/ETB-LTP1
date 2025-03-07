@@ -1,10 +1,10 @@
 # ETB-LTP1
 Repositório com conteúdo e orientações da disciplina LTP1 da ETB
 
-## Slides das aulas
+# Slides das aulas
 https://abre.ai/etb-ltp1-slides
 
-## Conteúdo
+# Conteúdo
 | **Tópicos Principais**        | **Subtópicos**                      | **Detalhes**                                                   |
 |-------------------------------|--------------------------------------|----------------------------------------------------------------|
 | **1. Elementos Básicos da Linguagem** | 1.1 Tipos Primitivos | Inteiros, ponto flutuante, caracteres, booleanos |
@@ -25,3 +25,8 @@ https://abre.ai/etb-ltp1-slides
 |                               | 4.2 Coleções de Objetos | List, Set, Map, e suas implementações |
 | **5. Manipulação de String**  | 5.1 Métodos da Classe String | concat, substring, replace, etc. |
 |                               | 5.2 StringBuilder e StringBuffer | Manipulação eficiente de strings | 
+
+# Avaliações
+** A1 ** - 26/03
+** A2 ** - 26/05
+** A3 ** - 25/06
