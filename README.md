@@ -1,5 +1,5 @@
 # ETB-LTP1
-Repositório com conteúdo e orientações da disciplina LTP1 da ETB
+Este repositório contém materiais e orientações para a disciplina LTP1 (Linguagens e Técnicas de Programação 1) da ETB. Aqui você encontrará slides das aulas, tópicos abordados, e datas de avaliações.
 
 ## Slides das aulas
 https://abre.ai/etb-ltp1-slides
@@ -25,3 +25,8 @@ https://abre.ai/etb-ltp1-slides
 |                               | 4.2 Coleções de Objetos | List, Set, Map, e suas implementações |
 | **5. Manipulação de String**  | 5.1 Métodos da Classe String | concat, substring, replace, etc. |
 |                               | 5.2 StringBuilder e StringBuffer | Manipulação eficiente de strings | 
+
+## Avaliações
+- **A1** - 26/03
+- **A2** - 26/05
+- **A3** - 25/06
