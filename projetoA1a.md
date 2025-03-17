@@ -27,45 +27,60 @@ Desenvolver uma aplicação console que:
     Temperatura.java
 ```
 
-## Exemplos de Uso
-
-### Exemplo 1: Celsius para Fahrenheit
+## Exemplo de Uso
 ```
+=== CONVERSOR DE TEMPERATURA ===
+1. Converter temperatura
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 1
+
+[CONVERSÃO]
 Digite a temperatura: 25
 Unidade atual (C/F/K): C
 Converter para (C/F/K): F
 Resultado: 77°F
-```
 
-### Exemplo 2: Kelvin para Celsius
-```
-Digite a temperatura: 300
-Unidade atual (C/F/K): K
-Converter para (C/F/K): C
-Resultado: 26.85°C
-```
+=== CONVERSOR DE TEMPERATURA ===
+1. Converter temperatura
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 1
 
-### Exemplo 3: Fahrenheit para Kelvin
-```
+[CONVERSÃO]
 Digite a temperatura: 98.6
 Unidade atual (C/F/K): F
 Converter para (C/F/K): K
 Resultado: 310.15K
-```
 
-## Exemplos de Uso
-```
-[NOVA CONVERSÃO]
-Digite a temperatura: 25
-Unidade atual (C/F/K): C
-Converter para (C/F/K): F
-Resultado: 77°F
+=== CONVERSOR DE TEMPERATURA ===
+1. Converter temperatura
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 2
 
 [HISTÓRICO]
-Últimas conversões:
-1. 25°C -> 77°F
-2. 30°C -> 86°F
-3. 20°C -> 68°F
+1. 25.00°C
+2. 37.00°C
+
+=== CONVERSOR DE TEMPERATURA ===
+1. Converter temperatura
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 5
+Opção inválida!
+
+=== CONVERSOR DE TEMPERATURA ===
+1. Converter temperatura
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 4
+Programa finalizado!
 ```
 
 ## Observações

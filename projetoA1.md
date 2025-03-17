@@ -1,33 +1,47 @@
 # Projeto Prático I: Orientações Gerais
 
 ## Visão Geral
-Este documento contém as orientações gerais para os cinco projetos práticos:
-- Projeto I-A: Conversor de Temperatura
-- Projeto I-B: Calculadora de IMC
-- Projeto I-C: Sistema de Controle de Estoque
-- Projeto I-D: Calculadora de Descontos
-- Projeto I-E: Calculadora de Notas
+Este documento contém as orientações gerais para os cinco projetos práticos da primeira avaliação:
+- Projeto I-A: Conversor de Temperatura (array de histórico)
+- Projeto I-B: Calculadora de IMC (array de resultados)
+- Projeto I-C: Sistema de Estoque (array de quantidades)
+- Projeto I-D: Calculadora de Descontos (array de valores)
+- Projeto I-E: Calculadora de Notas (array de notas)
 
-## Datas Importantes
-- Entrega do código: 26/03 até 14:00
-- Apresentações: 26/03 durante a aula
+## Requisitos Técnicos
+1. **Estrutura Obrigatória**:
+   - Uma única classe Java
+   - Um único array de tipo primitivo
+   - Menu com 4 opções fixas
+   - Interface via console (System.in/out)
 
-## Requisitos Comuns
-1. **Uso de Arrays**:
-   - Utilização de array
-   - Tamanho fixo definido na declaração
+2. **Proibições**:
+   - Não usar arrays de objetos
+   - Não usar métodos além do main
+   - Não implementar ordenação
+   - Não implementar busca
 
-2. **Interface Console**:
-   - Menu numerado de opções
-   - Mensagens claras ao usuário
-   - Validação de todas as entradas
-   - Opção de saída do programa
+3. **Menu Padrão**:
+   - Opção 1: Entrada de dados
+   - Opção 2: Visualização de dados
+   - Opção 3: Processamento/Cálculos
+   - Opção 4: Sair
 
-3. **Estrutura de Código**:
-   - Usar apenas uma classe principal
-   - Comentários explicativos
-   - Nomes de variáveis significativos
-   - Indentação adequada
+## Orientações de Implementação
+1. **Entrada de Dados**:
+   - Validar todos os inputs
+   - Tratar valores inválidos
+   - Respeitar limites do array
+
+2. **Processamento**:
+   - Usar apenas operações básicas
+   - Manter precisão de 2 casas decimais
+   - Validar resultados
+
+3. **Saída**:
+   - Mensagens claras e padronizadas
+   - Formatação adequada dos números
+   - Feedback para o usuário
 
 ## Critérios de Avaliação
 

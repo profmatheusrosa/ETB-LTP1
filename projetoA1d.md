@@ -1,7 +1,7 @@
 # Projeto Prático I-D: Calculadora de Descontos
 
 ## Objetivo
-Praticar operações matemáticas e lógica condicional em Java.
+Praticar a sintaxe Java e lógica de programação com operações matemáticas.
 
 ## Descrição
 Desenvolver uma aplicação que:
@@ -65,21 +65,68 @@ Valor Final: R$ 382.50
 
 ## Exemplos de Uso
 ```
-[MENU]
+=== CALCULADORA DE DESCONTOS ===
 1. Adicionar produto
 2. Mostrar produtos
 3. Calcular total
 4. Sair
+Escolha uma opção: 1
 
-[PRODUTO]
-Valor: 100.00
-Adicionado com sucesso!
+[NOVO PRODUTO]
+Digite o valor: 100.00
+Produto adicionado!
+
+=== CALCULADORA DE DESCONTOS ===
+1. Adicionar produto
+2. Mostrar produtos
+3. Calcular total
+4. Sair
+Escolha uma opção: 1
+
+[NOVO PRODUTO]
+Digite o valor: 150.00
+Produto adicionado!
+
+=== CALCULADORA DE DESCONTOS ===
+1. Adicionar produto
+2. Mostrar produtos
+3. Calcular total
+4. Sair
+Escolha uma opção: 2
+
+[PRODUTOS]
+1. R$ 100.00
+2. R$ 150.00
+Total: R$ 250.00
+
+=== CALCULADORA DE DESCONTOS ===
+1. Adicionar produto
+2. Mostrar produtos
+3. Calcular total
+4. Sair
+Escolha uma opção: 3
 
 [TOTAL]
-Tipo cliente: VIP
-Valor original: R$ 100.00
-Desconto (10%): R$ 10.00
-Valor final: R$ 90.00
+Tipo de cliente (R/V): V
+Subtotal: R$ 250.00
+Desconto (10%): R$ 25.00
+Total: R$ 225.00
+
+=== CALCULADORA DE DESCONTOS ===
+1. Adicionar produto
+2. Mostrar produtos
+3. Calcular total
+4. Sair
+Escolha uma opção: 0
+Opção inválida!
+
+=== CALCULADORA DE DESCONTOS ===
+1. Adicionar produto
+2. Mostrar produtos
+3. Calcular total
+4. Sair
+Escolha uma opção: 4
+Programa finalizado!
 ```
 
 ## Observações
