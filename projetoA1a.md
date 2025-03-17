@@ -10,7 +10,7 @@ Desenvolver uma aplicação console que:
 - Exiba o histórico de conversões
 
 ## Funcionalidades
-1. **Entrada de Temperatura**:
+1. **Entrada de Dados**:
    - Receber valor numérico e unidade atual
    - Adicionar ao array de histórico
 
@@ -19,13 +19,6 @@ Desenvolver uma aplicação console que:
 
 3. **Histórico e Exibição**:
    - Mostrar últimas conversões do array
-
-## Estrutura do Projeto
-```
-/src/main/java/com/projeto
-    ConversorTemperatura.java
-    Temperatura.java
-```
 
 ## Exemplo de Uso
 ```

@@ -18,13 +18,6 @@ Criar uma aplicação console que:
    - Processamento sequencial do array
    - Exibição na ordem de entrada
 
-## Estrutura do Projeto
-```
-/src/main/java/com/projeto
-    CalculadoraIMC.java
-    Pessoa.java
-```
-
 ## Exemplos de Uso
 
 ### Exemplo 1: IMC Normal

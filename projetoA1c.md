@@ -1,113 +1,93 @@
 # Projeto Prático I-C: Sistema de Controle de Estoque
 
 ## Objetivo
-Praticar a sintaxe Java e lógica de programação com um sistema de controle de estoque 
+Praticar a sintaxe Java e lógica de programação com um sistema de estoque.
 
 ## Descrição
 Implementar um sistema que:
-- Use um array para quantidades de produtos
-- Permita atualização de quantidades
-- Calcule valor total do estoque
-- Limite-se a 10 produtos fixos pré-cadastrados
+- Gerencie o estoque de um único produto
+- Registre as últimas 10 movimentações de estoque
+- Permita entradas e saídas do estoque
+- Mostre histórico de movimentações
 
 ## Funcionalidades
-1. **Gestão de Quantidades**:
-   - Array único para quantidades
-   - Produtos são posições fixas no array
+1. **Entrada de Dados**:
+   - Registrar nova movimentação (positivo para entrada, negativo para saída)
 
-2. **Operações**:
-   - Atualizar quantidade
-   - Mostrar estoque atual
-   - Calcular valor total
+2. **Processamento**:
+   - Atualizar saldo do estoque
+   - Validar quantidade mínima (0) e máxima (999)
+   - Calcular média de movimentações
 
-## Estrutura do Projeto
-```
-/src/main/java/com/projeto
-    ControleEstoque.java
-    Produto.java
-```
+3. **Exibição**:
+   - Mostrar histórico de movimentações
+   - Exibir saldo atual
+   - Apresentar estatísticas
 
-## Exemplos de Uso
+## Exemplo de Uso
 ```
 === CONTROLE DE ESTOQUE ===
-1. Atualizar quantidade
-2. Mostrar estoque
-3. Calcular total
+1. Registrar movimentação
+2. Ver histórico
+3. Ver estatísticas
 4. Sair
 Escolha uma opção: 1
 
-[PRODUTOS DISPONÍVEIS]
-1. Arroz     - R$ 20.00
-2. Feijão    - R$ 8.00
-3. Açúcar    - R$ 5.00
-4. Café      - R$ 8.00
-5. Óleo      - R$ 10.00
-
-Número do produto (1-5): 1
-Nova quantidade: 10
-Quantidade atualizada!
+[MOVIMENTAÇÃO]
+Digite a quantidade (+/-): 50
+Movimentação registrada!
+Saldo atual: 50 unidades
 
 === CONTROLE DE ESTOQUE ===
-1. Atualizar quantidade
-2. Mostrar estoque
-3. Calcular total
+1. Registrar movimentação
+2. Ver histórico
+3. Ver estatísticas
 4. Sair
 Escolha uma opção: 1
 
-[PRODUTOS DISPONÍVEIS]
-1. Arroz     - R$ 20.00
-2. Feijão    - R$ 8.00
-3. Açúcar    - R$ 5.00
-4. Café      - R$ 8.00
-5. Óleo      - R$ 10.00
-
-Número do produto (1-5): 2
-Nova quantidade: 15
-Quantidade atualizada!
+[MOVIMENTAÇÃO]
+Digite a quantidade (+/-): -20
+Movimentação registrada!
+Saldo atual: 30 unidades
 
 === CONTROLE DE ESTOQUE ===
-1. Atualizar quantidade
-2. Mostrar estoque
-3. Calcular total
+1. Registrar movimentação
+2. Ver histórico
+3. Ver estatísticas
 4. Sair
 Escolha uma opção: 2
 
-[ESTOQUE ATUAL]
-1. Arroz:   10 un x R$ 20.00 = R$ 200.00
-2. Feijão:  15 un x R$ 8.00  = R$ 120.00
-3. Açúcar:   0 un x R$ 5.00  = R$ 0.00
-4. Café:     0 un x R$ 8.00  = R$ 0.00
-5. Óleo:     0 un x R$ 10.00 = R$ 0.00
+[HISTÓRICO]
+1. +50 unidades
+2. -20 unidades
+Saldo atual: 30 unidades
 
 === CONTROLE DE ESTOQUE ===
-1. Atualizar quantidade
-2. Mostrar estoque
-3. Calcular total
+1. Registrar movimentação
+2. Ver histórico
+3. Ver estatísticas
 4. Sair
 Escolha uma opção: 3
 
-[VALOR TOTAL EM ESTOQUE]
-Quantidade total de itens: 25
-Valor total em estoque: R$ 320.00
+[ESTATÍSTICAS]
+Total movimentações: 2
+Maior entrada: 50
+Maior saída: 20
+Média movimentações: 15
+Saldo atual: 30
 
 === CONTROLE DE ESTOQUE ===
-1. Atualizar quantidade
-2. Mostrar estoque
-3. Calcular total
-4. Sair
-Escolha uma opção: 7
-Opção inválida!
-
-=== CONTROLE DE ESTOQUE ===
-1. Atualizar quantidade
-2. Mostrar estoque
-3. Calcular total
+1. Registrar movimentação
+2. Ver histórico
+3. Ver estatísticas
 4. Sair
 Escolha uma opção: 4
 Programa finalizado!
 ```
 
 ## Observações
-- O array armazena apenas as quantidades dos produtos
-- Capacidade máxima de 20 produtos
-- Valores negativos não são permitidos
+- O array armazena apenas as movimentações (positivas ou negativas)
+- Capacidade máxima de 10 movimentações no histórico
+- Saldo não pode ficar negativo
+- Validar todas as entradas
+- Armazenar apenas valores inteiros
