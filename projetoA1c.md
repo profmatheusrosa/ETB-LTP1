@@ -5,18 +5,20 @@ Desenvolver habilidades com arrays e operações básicas de CRUD.
 
 ## Descrição
 Implementar um sistema que:
-- Use um único array para produtos
-- Permita adição e remoção sequencial
-- Mostre lista atual de produtos
+- Use um único array para quantidades de produtos
+- Permita atualização de quantidades
+- Calcule valor total do estoque
+- Limite-se a 10 produtos fixos pré-cadastrados
 
 ## Funcionalidades
-1. **Gestão de Produtos**:
-   - Array único para produtos
-   - Operações sequenciais de CRUD
+1. **Gestão de Quantidades**:
+   - Array único para quantidades
+   - Produtos são posições fixas no array
 
-2. **Relatórios**:
-   - Exibição sequencial dos produtos
-   - Cálculo de valor total
+2. **Operações**:
+   - Atualizar quantidade
+   - Mostrar estoque atual
+   - Calcular valor total
 
 ## Estrutura do Projeto
 ```
@@ -29,72 +31,26 @@ Implementar um sistema que:
 
 ### Exemplo 1: Cadastro de Produto
 ```
-[CADASTRO]
-Produto: Notebook Dell
-Quantidade: 5
-Preço: 3500.00
+[MENU]
+1. Atualizar quantidade
+2. Mostrar estoque
+3. Calcular total
+4. Sair
 
-Produto cadastrado com sucesso!
-```
+[ATUALIZAÇÃO]
+Produto (1-10): 1
+Nova quantidade: 5
 
-### Exemplo 2: Atualização de Estoque
-```
-[ATUALIZAÇÃO DE ESTOQUE]
-Produto: Notebook Dell
-Nova quantidade: 3
-Motivo: Venda
+[ESTOQUE]
+1. Produto A: 5 un
+2. Produto B: 3 un
+3. Produto C: 7 un
 
-Estoque atualizado:
-- Notebook Dell: 3 unidades (R$ 10.500,00 total)
-```
-
-### Exemplo 3: Relatório
-```
-[LISTA ATUAL]
-1. Notebook Dell (5) - R$3500.00
-2. Mouse USB (10) - R$50.00
-3. Teclado (8) - R$100.00
-
-Total em estoque: R$18.300,00
-```
-
-### Exemplo 4: Operações em Lote
-```
-[OPERAÇÕES EM LOTE]
-Cadastrar produtos:
-1. Notebook Dell, 5, R$3500.00
-2. Mouse USB, 10, R$50.00
-3. Teclado, 8, R$100.00
-```
-
-### Exemplo 5: Busca
-```
-[BUSCA]
-Buscar "Mouse"
-Encontrado: Mouse USB (10 un)
-```
-
-### Exemplo 6: Ordenação
-```
-[ORDENAÇÃO]
-Produtos por preço:
-1. Mouse USB - R$50.00
-2. Teclado - R$100.00
-3. Notebook Dell - R$3500.00
-```
-
-### Exemplo 7: Filtros
-```
-[FILTROS]
-Produtos com estoque < 10:
-- Notebook Dell (5)
-- Teclado (8)
+[TOTAL]
+Valor em estoque: R$ 1.500,00
 ```
 
 ## Observações
 - O array armazena apenas as quantidades dos produtos
 - Capacidade máxima de 20 produtos
-- Posição no array serve como identificador do produto
 - Valores negativos não são permitidos
-- Total do estoque limitado a 1000 itens
-- Não é necessário manter histórico de alterações

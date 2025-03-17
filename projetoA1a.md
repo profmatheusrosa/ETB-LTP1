@@ -1,4 +1,4 @@
-# Projeto Prático I-A: Converter de Temperatura
+# Projeto Prático I-A: Conversor de Temperatura
 
 ## Objetivo
 Praticar a sintaxe Java e lógica de programação com conversões de temperatura.

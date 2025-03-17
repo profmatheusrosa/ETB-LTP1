@@ -5,18 +5,20 @@ Praticar operações matemáticas e lógica condicional em Java.
 
 ## Descrição
 Desenvolver uma aplicação que:
-- Use um array único para itens da compra
-- Aplique desconto em todos os itens
-- Mostre resumo da compra
+- Use um array para armazenar valores de produtos
+- Aplique desconto fixo por tipo de cliente
+- Calcule total com desconto
+- Limite de 10 produtos por compra
 
 ## Funcionalidades
 1. **Entrada de Dados**:
-   - Array de itens da compra
-   - Tipo de cliente único para todos os itens
+   - Array para valores dos produtos
+   - Tipo de cliente (Regular=5%, VIP=10%)
 
-2. **Processamento**:
-   - Aplicação sequencial de desconto
-   - Cálculo de totais
+2. **Operações**:
+   - Inserir valor de produto
+   - Mostrar todos os valores
+   - Calcular total com desconto
 
 ## Estrutura do Projeto
 ```
@@ -63,18 +65,21 @@ Valor Final: R$ 382.50
 
 ## Exemplos de Uso
 ```
-[COMPRA]
-Cliente: VIP
-Número de itens: 3
+[MENU]
+1. Adicionar produto
+2. Mostrar produtos
+3. Calcular total
+4. Sair
 
-1. Camisa - R$50.00 x 2
-2. Calça - R$100.00 x 1
-3. Tênis - R$200.00 x 1
+[PRODUTO]
+Valor: 100.00
+Adicionado com sucesso!
 
-[RESUMO]
-Valor Original: R$400.00
-Desconto (15%): R$60.00
-Valor Final: R$340.00
+[TOTAL]
+Tipo cliente: VIP
+Valor original: R$ 100.00
+Desconto (10%): R$ 10.00
+Valor final: R$ 90.00
 ```
 
 ## Observações
@@ -84,4 +89,3 @@ Valor Final: R$340.00
 - Valores negativos não são permitidos
 - Desconto máximo de 30%
 - Arredondamento para duas casas decimais
-```
