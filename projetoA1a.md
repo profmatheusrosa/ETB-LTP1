@@ -78,6 +78,5 @@ Programa finalizado!
 
 ## Observações
 - O array armazena apenas as últimas 5 temperaturas convertidas
-- Não é necessário armazenar a unidade de origem/destino no array
 - Os valores são armazenados sempre em Celsius no array
 - Precisão de duas casas decimais nas conversões

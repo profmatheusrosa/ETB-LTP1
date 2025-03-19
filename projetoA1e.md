@@ -13,7 +13,7 @@ Desenvolver uma aplicação que:
 ## Funcionalidades
 1. **Entrada de Dados**:
    - Receber nota do aluno (0 a 10)
-   - Armazenar em array circular
+   - Armazenar em array
    - Validar valores de entrada
 
 2. **Processamento**:
