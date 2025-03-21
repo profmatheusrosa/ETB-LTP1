@@ -52,9 +52,9 @@ Valor final: R$ 90.00
 Escolha uma opção: 2
 
 [HISTÓRICO]
-1. R$ 10.00 (10%)
-2. R$ 25.00 (5%)
-3. R$ 150.00 (10%)
+1. R$ 10.00
+2. R$ 25.00
+3. R$ 150.00
 
 === CALCULADORA DE DESCONTOS ===
 1. Calcular desconto
