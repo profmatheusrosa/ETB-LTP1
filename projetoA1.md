@@ -76,7 +76,7 @@ Este documento contém as orientações gerais para os cinco projetos práticos 
 
 ## Instruções de Entrega
 1. **Email**:
-   - Para: [EMAIL_PROFESSOR]
+   - Para: matheusluis103@gmail.com
    - Assunto: "ETB-LTP1-ProjetoA1-[NOME_GRUPO]"
    - Até: 26/03 23:59
 

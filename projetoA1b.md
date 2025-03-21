@@ -11,8 +11,7 @@ Criar uma aplicação console que:
 
 ## Funcionalidades
 1. **Entrada de Dados**:
-   - Array único para armazenar dados das pessoas
-   - Cada posição contém nome, peso, altura e IMC
+   - Array único para armazenar IMC das pessoas
 
 2. **Cálculo e Exibição**:
    - Processamento sequencial do array
