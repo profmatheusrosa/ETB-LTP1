@@ -49,12 +49,27 @@ Valor final: R$ 90.00
 2. Ver histórico
 3. Ver estatísticas
 4. Sair
+Escolha uma opção: 1
+
+[NOVA COMPRA]
+Valor da compra: 200.00
+Tipo de cliente (R/V): R
+
+[RESULTADO]
+Valor original: R$ 200.00
+Desconto (5%): R$ 10.00
+Valor final: R$ 190.00
+
+=== CALCULADORA DE DESCONTOS ===
+1. Calcular desconto
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
 Escolha uma opção: 2
 
 [HISTÓRICO]
 1. R$ 10.00
-2. R$ 25.00
-3. R$ 150.00
+2. R$ 10.00
 
 === CALCULADORA DE DESCONTOS ===
 1. Calcular desconto
@@ -64,10 +79,10 @@ Escolha uma opção: 2
 Escolha uma opção: 3
 
 [ESTATÍSTICAS]
-Total descontos: R$ 185.00
-Maior desconto: R$ 150.00
+Total descontos: R$ 20.00
+Maior desconto: R$ 10.00
 Menor desconto: R$ 10.00
-Média: R$ 61.67
+Média: R$ 10.00
 
 === CALCULADORA DE DESCONTOS ===
 1. Calcular desconto
@@ -76,6 +91,14 @@ Média: R$ 61.67
 4. Sair
 Escolha uma opção: 4
 Programa finalizado!
+
+=== CALCULADORA DE DESCONTOS ===
+1. Calcular desconto
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 5
+Opção inválida!
 ```
 
 ## Observações

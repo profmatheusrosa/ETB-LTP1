@@ -75,8 +75,6 @@ Total de notas: 2
 Maior nota: 7.50
 Menor nota: 5.00
 Média: 6.25
-Aprovados: 1 (50%)
-Reprovados: 1 (50%)
 
 === CALCULADORA DE NOTAS ===
 1. Inserir nota

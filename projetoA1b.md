@@ -78,16 +78,16 @@ Média: 26.12
 2. Mostrar histórico
 3. Ver estatísticas
 4. Sair
-Escolha uma opção: 0
-Opção inválida!
+Escolha uma opção: 4
+Programa finalizado!
 
 === CALCULADORA DE IMC ===
 1. Calcular novo IMC
 2. Mostrar histórico
 3. Ver estatísticas
 4. Sair
-Escolha uma opção: 4
-Programa finalizado!
+Escolha uma opção: 5
+Opção inválida!
 ```
 
 ## Observações

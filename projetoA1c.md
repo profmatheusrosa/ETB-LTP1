@@ -83,6 +83,14 @@ Saldo atual: 30
 4. Sair
 Escolha uma opção: 4
 Programa finalizado!
+
+=== CONTROLE DE ESTOQUE ===
+1. Registrar movimentação
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 5
+Opção inválida!
 ```
 
 ## Observações

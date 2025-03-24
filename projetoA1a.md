@@ -64,8 +64,12 @@ Escolha uma opção: 2
 2. Ver histórico
 3. Ver estatísticas
 4. Sair
-Escolha uma opção: 5
-Opção inválida!
+Escolha uma opção: 3
+
+[ESTATÍSTICAS]
+Menor: 25.00°C
+Maior: 37.00°C
+Média: 31.00°C
 
 === CONVERSOR DE TEMPERATURA ===
 1. Converter temperatura
@@ -74,6 +78,14 @@ Opção inválida!
 4. Sair
 Escolha uma opção: 4
 Programa finalizado!
+
+=== CONVERSOR DE TEMPERATURA ===
+1. Converter temperatura
+2. Ver histórico
+3. Ver estatísticas
+4. Sair
+Escolha uma opção: 5
+Opção inválida!
 ```
 
 ## Observações
