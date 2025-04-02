@@ -17,13 +17,19 @@ public class MediaIdade {
         Scanner scanner = new Scanner(System.in);
         int idade = 0, soma = 0, quantidade = 0;
 
-        while (idade =! -1) {
+        // Loop para ler idades até que o usuário digite -1
+        while (idade != -1) { // Corrigido operador de comparação
             System.out.print("Digite a idade (ou -1 para sair): ");
             idade = scanner.nextInt();
-            soma += idade;
-            quantidade++;
+            
+            // Verifica se a idade é válida antes de somar
+            if (idade != -1) {
+                soma += idade;
+                quantidade++;
+            }
         }
 
+        // Calcula e exibe a média, se houver idades válidas
         if (quantidade > 0) {
             double media = (double) soma / quantidade;
             System.out.println("A média de idade é: " + media);
@@ -31,7 +37,7 @@ public class MediaIdade {
             System.out.println("Nenhuma idade foi informada.");
         }
 
-        scanner.close();
+        scanner.close(); // Fecha o scanner
     }
 }
 ```
@@ -48,12 +54,14 @@ public class Somatorio {
         int n = scanner.nextInt();
         int soma = 0;
 
+        // Loop para calcular o somatório de 1 até n
         for (int i = 1; i <= n; i++) {
-            soma += i;
+            soma += i; // Adiciona o valor de i à soma
         }
 
+        // Exibe o resultado do somatório
         System.out.println("O somatório de 1 até " + n + " é: " + soma);
-        scanner.close();
+        scanner.close(); // Fecha o scanner
     }
 }
 ```
@@ -69,11 +77,12 @@ public class SequenciaNumeros {
         System.out.print("Digite um número: ");
         int n = scanner.nextInt();
 
+        // Loop para imprimir a sequência de 1 até n
         for (int i = 1; i <= n; i++) {
-            System.out.print(i + " ");
+            System.out.print(i + " "); // Imprime o número seguido de um espaço
         }
 
-        scanner.close();
+        scanner.close(); // Fecha o scanner
     }
 }
 ```
@@ -92,12 +101,14 @@ public class Potencia {
         int expoente = scanner.nextInt();
         int resultado = 1;
 
+        // Loop para calcular a potência manualmente
         for (int i = 1; i <= expoente; i++) {
-            resultado *= base;
+            resultado *= base; // Multiplica o resultado pela base
         }
 
+        // Exibe o resultado da potência
         System.out.println(base + " elevado a " + expoente + " é: " + resultado);
-        scanner.close();
+        scanner.close(); // Fecha o scanner
     }
 }
 ```
@@ -113,11 +124,12 @@ public class Tabuada {
         System.out.print("Digite um número para ver a tabuada: ");
         int n = scanner.nextInt();
 
+        // Loop para calcular e exibir a tabuada de 1 a 10
         for (int i = 1; i <= 10; i++) {
-            System.out.println(n + " x " + i + " = " + (n * i));
+            System.out.println(n + " x " + i + " = " + (n * i)); // Exibe o cálculo da tabuada
         }
 
-        scanner.close();
+        scanner.close(); // Fecha o scanner
     }
 }
 ```
