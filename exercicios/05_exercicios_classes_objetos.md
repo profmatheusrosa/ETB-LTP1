@@ -1,7 +1,6 @@
 
 # Exercícios de Classes e Objetos
 
-## Sumário
 1. [Classe Cachorro](#1-classe-cachorro)
 2. [Classe para testar a classe Cachorro](#2-classe-para-testar-a-classe-cachorro)
 

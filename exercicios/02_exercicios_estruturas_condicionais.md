@@ -1,6 +1,5 @@
 # Exercícios em Java - Condicionais
 
-## Sumário
 1. [Verificar se dois números são pares ou ímpares](#1-verificar-se-dois-números-são-pares-ou-ímpares)
 2. [Verificar se dois números são iguais ou qual é o maior](#2-verificar-se-dois-números-são-iguais-ou-qual-é-o-maior)
 3. [Imprimir três números em ordem crescente](#3-imprimir-três-números-em-ordem-crescente)

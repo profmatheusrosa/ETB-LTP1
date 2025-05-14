@@ -1,6 +1,5 @@
 # Exercícios de Vetores
 
-## Sumário
 1. [Vetor com valores pré-definidos](#1-vetor-com-valores-pré-definidos)
 2. [Vetor com valores digitados pelo usuário](#2-vetor-com-valores-digitados-pelo-usuário)
 3. [Construir vetor B a partir do vetor A](#3-construir-vetor-b-a-partir-do-vetor-a)

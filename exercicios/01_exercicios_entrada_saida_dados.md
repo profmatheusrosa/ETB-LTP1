@@ -1,6 +1,5 @@
 # Exercícios em Java
 
-## Sumário
 1. [Programa que imprime na tela 'Hello World'](#1-programa-que-imprime-na-tela-hello-world)
 2. [Programa que lê o nome do usuário e imprime uma mensagem de boas-vindas](#2-programa-que-lê-o-nome-do-usuário-e-imprime-uma-mensagem-de-boas-vindas)
 3. [Algoritmo que lê dois números e imprime a soma deles](#3-algoritmo-que-lê-dois-números-e-imprime-a-soma-deles)

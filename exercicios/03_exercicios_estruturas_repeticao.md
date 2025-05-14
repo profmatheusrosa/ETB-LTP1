@@ -1,6 +1,5 @@
 # Exercícios de Estruturas de Repetição
 
-## Sumário
 1. [Média de idade](#1-média-de-idade)
 2. [Somatório de números inteiros](#2-somatório-de-números-inteiros)
 3. [Sequência de números](#3-sequência-de-números)

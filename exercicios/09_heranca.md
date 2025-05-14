@@ -1,8 +1,7 @@
 # Exercícios de Herança
 
-- [1 - Crie uma classe ContaBancaria com os atributos titular e saldo, e duas subclasses: ContaCorrente, que adiciona limiteCredito, e ContaPoupanca, que adiciona taxaJuros, implementando o método exibirInformacoes() em cada subclasse](#1-contabancaria-contacorrente-e-contapoupanca)
-- [2 - Crie uma classe base chamada Automovel, contendo os atributos privados marca e potencia, e seus respectivos métodos construtores, getters e setters, além de duas subclasses, Carro e Motocicleta, com atributos numeroDePortas e cilindradas respectivamente, também com encapsulamento e construtores apropriados, finalizando com uma classe TesteAutomovel que instancie objetos dessas subclasses e exiba os valores de seus atributos](#2-automovel-carro-motocicleta-e-testeautomovel)
-
+1. [ContaBancaria, ContaCorrente e ContaPoupanca](#1-contabancaria-contacorrente-e-contapoupanca)  
+2. [Automovel, Carro, Motocicleta e TesteAutomovel](#2-automovel-carro-motocicleta-e-testeautomovel)  
 
 ## 1. ContaBancaria, ContaCorrente e ContaPoupanca
 
