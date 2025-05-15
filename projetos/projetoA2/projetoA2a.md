@@ -70,3 +70,66 @@ Programa finalizado!
 - Os valores podem ser armazenados como objetos da classe base `Temperatura`
 - Precisão de duas casas decimais nas conversões
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
+
+## Diagrama UML
+
+```mermaid
+classDiagram
+    class Temperatura {
+        <<abstract>>
+        -double valor
+        +Temperatura(double valor)
+        +getValor() double
+        +setValor(double valor) void
+        +converter() double
+    }
+
+    class Conversao {
+        <<interface>>
+        +converterParaCelsius() double
+        +converterParaFahrenheit() double
+        +converterParaKelvin() double
+    }
+
+    class Celsius {
+        +Celsius(double valor)
+        +converterParaCelsius() double
+        +converterParaFahrenheit() double
+        +converterParaKelvin() double
+    }
+
+    class Fahrenheit {
+        +Fahrenheit(double valor)
+        +converterParaCelsius() double
+        +converterParaFahrenheit() double
+        +converterParaKelvin() double
+    }
+
+    class Kelvin {
+        +Kelvin(double valor)
+        +converterParaCelsius() double
+        +converterParaFahrenheit() double
+        +converterParaKelvin() double
+    }
+
+    class ConversorTemperatura {
+        -List~Temperatura~ historico
+        +converterTemperatura(double valor, String unidadeOrigem, String unidadeDestino) Temperatura
+        +getHistorico() List~Temperatura~
+        +adicionarAoHistorico(Temperatura temp) void
+    }
+
+    Temperatura <|-- Celsius
+    Temperatura <|-- Fahrenheit
+    Temperatura <|-- Kelvin
+    Conversao <|.. Celsius
+    Conversao <|.. Fahrenheit
+    Conversao <|.. Kelvin
+    ConversorTemperatura --> Temperatura
+```
+
+O diagrama acima representa:
+- `Temperatura`: Classe abstrata base com atributos e métodos comuns
+- `Conversao`: Interface que define os métodos de conversão
+- Classes concretas: `Celsius`, `Fahrenheit` e `Kelvin` que herdam de `Temperatura` e implementam `Conversao`
+- `ConversorTemperatura`: Classe principal que gerencia as conversões e o histórico
