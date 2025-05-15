@@ -93,3 +93,59 @@ Programa finalizado!
 - Desconto calculado com duas casas decimais
 - Tipos de cliente: Regular (5%) e VIP (10%)
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
+
+## Diagrama UML
+
+```mermaid
+classDiagram
+    class Desconto {
+        <<abstract>>
+        -double valorCompra
+        -double valorDesconto
+        -String tipoCliente
+        +Desconto(double valorCompra, String tipoCliente)
+        +getValorCompra() double
+        +getValorDesconto() double
+        +getTipoCliente() String
+        +calcularDesconto() double
+    }
+
+    class Calculavel {
+        <<interface>>
+        +calcularDesconto() double
+        +getValorFinal() double
+    }
+
+    class ClienteRegular {
+        +ClienteRegular(double valorCompra)
+        +calcularDesconto() double
+        +getValorFinal() double
+    }
+
+    class ClienteVIP {
+        +ClienteVIP(double valorCompra)
+        +calcularDesconto() double
+        +getValorFinal() double
+    }
+
+    class CalculadoraDesconto {
+        -Desconto[] historico
+        -int indiceAtual
+        +calcularNovoDesconto(double valorCompra, String tipoCliente) Desconto
+        +getHistorico() Desconto[]
+        +adicionarAoHistorico(Desconto desconto) void
+        +getEstatisticas() String
+    }
+
+    Desconto <|-- ClienteRegular
+    Desconto <|-- ClienteVIP
+    Calculavel <|.. ClienteRegular
+    Calculavel <|.. ClienteVIP
+    CalculadoraDesconto --> Desconto
+```
+
+O diagrama acima representa:
+- `Desconto`: Classe abstrata base com atributos e métodos comuns
+- `Calculavel`: Interface que define os métodos de cálculo de desconto
+- Classes concretas: `ClienteRegular` e `ClienteVIP` que herdam de `Desconto` e implementam `Calculavel`
+- `CalculadoraDesconto`: Classe principal que gerencia os cálculos e o histórico usando um vetor de tamanho fixo
