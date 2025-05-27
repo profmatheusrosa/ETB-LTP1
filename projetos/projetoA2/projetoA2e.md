@@ -102,6 +102,7 @@ Programa finalizado!
 - Média 7.0 para aprovação
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
+<<<<<<< HEAD
 ## Critérios de Avaliação
 
 | Critério                               | Pontos |
@@ -142,3 +143,60 @@ Programa finalizado!
 2. **Conteúdo**:
    - Códigos fonte (.java)
    - Nomes dos integrantes
+=======
+## Diagrama UML
+
+```mermaid
+classDiagram
+    class Nota {
+        <<abstract>>
+        -double valor
+        -String status
+        -String tipo
+        +Nota(double valor, String tipo)
+        +getValor() double
+        +getStatus() String
+        +getTipo() String
+        +verificarAprovacao() boolean
+    }
+
+    class Avaliavel {
+        <<interface>>
+        +calcularMedia() double
+        +verificarAprovacao() boolean
+    }
+
+    class Prova {
+        +Prova(double valor)
+        +calcularMedia() double
+        +verificarAprovacao() boolean
+    }
+
+    class Trabalho {
+        +Trabalho(double valor)
+        +calcularMedia() double
+        +verificarAprovacao() boolean
+    }
+
+    class CalculadoraNotas {
+        -Nota[] historico
+        -int indiceAtual
+        +registrarNota(double valor, String tipo) Nota
+        +getHistorico() Nota[]
+        +adicionarAoHistorico(Nota nota) void
+        +getEstatisticas() String
+    }
+
+    Nota <|-- Prova
+    Nota <|-- Trabalho
+    Avaliavel <|.. Prova
+    Avaliavel <|.. Trabalho
+    CalculadoraNotas --> Nota
+```
+
+O diagrama acima representa:
+- `Nota`: Classe abstrata base com atributos e métodos comuns
+- `Avaliavel`: Interface que define os métodos de cálculo de média e verificação de aprovação
+- Classes concretas: `Prova` e `Trabalho` que herdam de `Nota` e implementam `Avaliavel`
+- `CalculadoraNotas`: Classe principal que gerencia as notas e o histórico usando um vetor de tamanho fixo
+>>>>>>> d7946ad98fdf8391dae608ec92c7c7d07f722620

@@ -103,6 +103,7 @@ Programa finalizado!
 - Armazenar apenas valores inteiros
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
+<<<<<<< HEAD
 ## Critérios de Avaliação
 
 | Critério                               | Pontos |
@@ -143,3 +144,61 @@ Programa finalizado!
 2. **Conteúdo**:
    - Códigos fonte (.java)
    - Nomes dos integrantes
+=======
+## Diagrama UML
+
+```mermaid
+classDiagram
+    class MovimentacaoEstoque {
+        <<abstract>>
+        -int quantidade
+        -String data
+        -String tipo
+        +MovimentacaoEstoque(int quantidade, String data)
+        +getQuantidade() int
+        +getData() String
+        +getTipo() String
+        +validarQuantidade() boolean
+    }
+
+    class Processavel {
+        <<interface>>
+        +processarMovimentacao() boolean
+        +validarMovimentacao() boolean
+    }
+
+    class Entrada {
+        +Entrada(int quantidade, String data)
+        +processarMovimentacao() boolean
+        +validarMovimentacao() boolean
+    }
+
+    class Saida {
+        +Saida(int quantidade, String data)
+        +processarMovimentacao() boolean
+        +validarMovimentacao() boolean
+    }
+
+    class ControleEstoque {
+        -MovimentacaoEstoque[] historico
+        -int indiceAtual
+        -int saldoAtual
+        +registrarMovimentacao(int quantidade, String data) MovimentacaoEstoque
+        +getHistorico() MovimentacaoEstoque[]
+        +adicionarAoHistorico(MovimentacaoEstoque mov) void
+        +getEstatisticas() String
+    }
+
+    MovimentacaoEstoque <|-- Entrada
+    MovimentacaoEstoque <|-- Saida
+    Processavel <|.. Entrada
+    Processavel <|.. Saida
+    ControleEstoque --> MovimentacaoEstoque
+```
+
+O diagrama acima representa:
+- `MovimentacaoEstoque`: Classe abstrata base com atributos e métodos comuns
+- `Processavel`: Interface que define os métodos de processamento e validação
+- Classes concretas: `Entrada` e `Saida` que herdam de `MovimentacaoEstoque` e implementam `Processavel`
+- `ControleEstoque`: Classe principal que gerencia as movimentações e o histórico usando um vetor de tamanho fixo
+>>>>>>> d7946ad98fdf8391dae608ec92c7c7d07f722620

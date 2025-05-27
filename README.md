@@ -28,5 +28,5 @@ https://abre.ai/etb-ltp1-slides
 
 ## Avaliações
 - **A1** - 26/03
-- **A2** - 26/05
+- **A2** - 30/05
 - **A3** - 25/06

@@ -88,6 +88,7 @@ Programa finalizado!
 - Precisão de duas casas decimais nos cálculos
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
+<<<<<<< HEAD
 ## Critérios de Avaliação
 
 | Critério                               | Pontos |
@@ -128,3 +129,62 @@ Programa finalizado!
 2. **Conteúdo**:
    - Códigos fonte (.java)
    - Nomes dos integrantes
+=======
+## Diagrama UML
+
+```mermaid
+classDiagram
+    class RegistroIMC {
+        <<abstract>>
+        -double peso
+        -double altura
+        -double imc
+        -String classificacao
+        +RegistroIMC(double peso, double altura)
+        +getPeso() double
+        +getAltura() double
+        +getIMC() double
+        +getClassificacao() String
+        +calcularIMC() double
+    }
+
+    class Calculavel {
+        <<interface>>
+        +calcularIMC() double
+        +classificarIMC() String
+    }
+
+    class Adulto {
+        +Adulto(double peso, double altura)
+        +calcularIMC() double
+        +classificarIMC() String
+    }
+
+    class Idoso {
+        +Idoso(double peso, double altura)
+        +calcularIMC() double
+        +classificarIMC() String
+    }
+
+    class CalculadoraIMC {
+        -RegistroIMC[] historico
+        -int indiceAtual
+        +calcularNovoIMC(double peso, double altura, String perfil) RegistroIMC
+        +getHistorico() RegistroIMC[]
+        +adicionarAoHistorico(RegistroIMC registro) void
+        +getEstatisticas() String
+    }
+
+    RegistroIMC <|-- Adulto
+    RegistroIMC <|-- Idoso
+    Calculavel <|.. Adulto
+    Calculavel <|.. Idoso
+    CalculadoraIMC --> RegistroIMC
+```
+
+O diagrama acima representa:
+- `RegistroIMC`: Classe abstrata base com atributos e métodos comuns
+- `Calculavel`: Interface que define os métodos de cálculo e classificação
+- Classes concretas: `Adulto` e `Idoso` que herdam de `RegistroIMC` e implementam `Calculavel`
+- `CalculadoraIMC`: Classe principal que gerencia os cálculos e o histórico usando um vetor de tamanho fixo
+>>>>>>> d7946ad98fdf8391dae608ec92c7c7d07f722620
