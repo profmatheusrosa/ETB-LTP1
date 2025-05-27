@@ -87,3 +87,44 @@ Programa finalizado!
 - Os valores são armazenados como objetos da classe base `RegistroIMC`
 - Precisão de duas casas decimais nos cálculos
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
+
+## Critérios de Avaliação
+
+| Critério                               | Pontos |
+|---------------------------------------|--------|
+| **Funcionalidade (2.5)**              |        |
+| - Implementação dos requisitos        | 1.0    |
+| - Correto uso do array               | 1.0    |
+| - Precisão nos cálculos              | 0.5    |
+| **Qualidade do Código (1.5)**         |        |
+| - Organização e clareza              | 0.5    |
+| - Comentários e documentação         | 0.5    |
+| - Tratamento de erros               | 0.5    |
+| **Interface e Usabilidade (1.0)**     |        |
+| - Clareza nas mensagens             | 1.0    |
+| **Apresentação (5.0)**                |        |
+| - Domínio do código                 | 2.0    |
+| - Explicação da lógica              | 2.0    |
+| - Respostas às perguntas            | 1.0    |
+| **Total**                             | 10.0   |
+
+### Observações da Avaliação
+- Nota mínima para aprovação: 5.0 pontos
+- Trabalhos não apresentados recebem nota zero
+- Leitura durante apresentação recebe nota zero
+- Membros ausentes recebem nota zero
+- Códigos que não executam recebem nota zero
+- Cada membro deve apresentar
+- A nota da apresentação será individual
+- Demonstração prática obrigatória
+
+
+## Instruções de Entrega
+1. **Email**:
+   - Para: matheusluis103@gmail.com
+   - Assunto: "ETB-LTP1-ProjetoA2-[TURMA][GRUPO]"
+   - Até: 30/05, 14:00
+
+2. **Conteúdo**:
+   - Códigos fonte (.java)
+   - Nomes dos integrantes
