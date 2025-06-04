@@ -31,7 +31,7 @@ Desenvolver uma aplicação console que:
    - Mostrar histórico das últimas 10 pessoas (objetos de IMC)
    - Exibir estatísticas: total de registros, menor IMC, maior IMC, média
 
-## Exemplo de Uso
+## Exemplo de uso
 ```
 === CALCULADORA DE IMC (POO) ===
 1. Calcular novo IMC
@@ -88,47 +88,10 @@ Programa finalizado!
 - Precisão de duas casas decimais nos cálculos
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
-## Critérios de Avaliação
-| Critério                               | Pontos |
-|---------------------------------------|--------|
-| **Funcionalidade (2.5)**              |        |
-| - Implementação dos requisitos        | 1.0    |
-| - Correto uso do array               | 1.0    |
-| - Precisão nos cálculos              | 0.5    |
-| **Qualidade do Código (1.5)**         |        |
-| - Organização e clareza              | 0.5    |
-| - Comentários e documentação         | 0.5    |
-| - Tratamento de erros               | 0.5    |
-| **Interface e Usabilidade (1.0)**     |        |
-| - Clareza nas mensagens             | 1.0    |
-| **Apresentação (5.0)**                |        |
-| - Domínio do código                 | 2.0    |
-| - Explicação da lógica              | 2.0    |
-| - Respostas às perguntas            | 1.0    |
-| **Total**                             | 10.0   |
-
-### Observações da Avaliação
-- Nota mínima para aprovação: 5.0 pontos
-- Trabalhos não apresentados recebem nota zero
-- Leitura durante apresentação recebe nota zero
-- Membros ausentes recebem nota zero
-- Códigos que não executam recebem nota zero
-- Cada membro deve apresentar
-- A nota da apresentação será individual
-- Demonstração prática obrigatória
-
-
-## Instruções de Entrega
-1. **Email**:
-   - Para: matheusluis103@gmail.com
-   - Assunto: "ETB-LTP1-ProjetoA2-[TURMA][GRUPO]"
-   - Até: 30/05, 14:00
-
-2. **Conteúdo**:
-   - Códigos fonte (.java)
-   - Nomes dos integrantes
-
 ## Diagrama UML
+
+> **Sugestão:** O diagrama UML abaixo é apenas uma sugestão de implementação. Você pode estruturar suas classes de outra forma, desde que todos os requisitos do projeto sejam atendidos.
+
 ```mermaid
 classDiagram
     class RegistroIMC {
@@ -179,8 +142,49 @@ classDiagram
     CalculadoraIMC --> RegistroIMC
 ```
 
+## Explicação do diagrama
 O diagrama acima representa:
 - `RegistroIMC`: Classe abstrata base com atributos e métodos comuns
 - `Calculavel`: Interface que define os métodos de cálculo e classificação
 - Classes concretas: `Adulto` e `Idoso` que herdam de `RegistroIMC` e implementam `Calculavel`
 - `CalculadoraIMC`: Classe principal que gerencia os cálculos e o histórico usando um vetor de tamanho fixo
+
+## Critérios de Avaliação
+| Critério                               | Pontos |
+|---------------------------------------|--------|
+| **Funcionalidade (2.5)**              |        |
+| - Implementação dos requisitos        | 1.0    |
+| - Correto uso do array               | 1.0    |
+| - Precisão nos cálculos              | 0.5    |
+| **Qualidade do Código (1.5)**         |        |
+| - Organização e clareza              | 0.5    |
+| - Comentários e documentação         | 0.5    |
+| - Tratamento de erros               | 0.5    |
+| **Interface e Usabilidade (1.0)**     |        |
+| - Clareza nas mensagens             | 1.0    |
+| **Apresentação (5.0)**                |        |
+| - Domínio do código                 | 2.0    |
+| - Explicação da lógica              | 2.0    |
+| - Respostas às perguntas            | 1.0    |
+| **Total**                             | 10.0   |
+
+### Observações da Avaliação
+- Nota mínima para aprovação: 5.0 pontos
+- Trabalhos não apresentados recebem nota zero
+- Leitura durante apresentação recebe nota zero
+- Membros ausentes recebem nota zero
+- Códigos que não executam recebem nota zero
+- Cada membro deve apresentar
+- A nota da apresentação será individual
+- Demonstração prática obrigatória
+
+## Instruções de Entrega
+1. **Email**:
+   - Para: matheusluis103@gmail.com
+   - Assunto: "ETB-LTP1-ProjetoA2-[TURMA][GRUPO]"
+   - Até: 30/05, 14:00
+   - O remetente do email deve copiar (CC) todos os demais integrantes do grupo.
+
+2. **Conteúdo**:
+   - Códigos fonte (.java)
+   - Nomes dos integrantes

@@ -30,7 +30,7 @@ Desenvolver uma aplicação console que:
 4. **Histórico e Exibição**:
    - Mostrar últimas conversões do vetor de objetos
 
-## Exemplo de Uso
+## Exemplo de uso
 ```
 === CONVERSOR DE TEMPERATURA (POO) ===
 1. Converter temperatura
@@ -72,6 +72,8 @@ Programa finalizado!
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
 ## Diagrama UML
+
+> **Sugestão:** O diagrama UML abaixo é apenas uma sugestão de implementação. Você pode estruturar suas classes de outra forma, desde que todos os requisitos do projeto sejam atendidos.
 
 ```mermaid
 classDiagram
@@ -129,6 +131,7 @@ classDiagram
     ConversorTemperatura --> Temperatura
 ```
 
+## Explicação do diagrama
 O diagrama acima representa:
 - `Temperatura`: Classe abstrata base com atributos e métodos comuns
 - `Conversao`: Interface que define os métodos de conversão
@@ -165,12 +168,12 @@ O diagrama acima representa:
 - A nota da apresentação será individual
 - Demonstração prática obrigatória
 
-
 ## Instruções de Entrega
 1. **Email**:
    - Para: matheusluis103@gmail.com
    - Assunto: "ETB-LTP1-ProjetoA2-[TURMA][GRUPO]"
    - Até: 30/05, 14:00
+   - O remetente do email deve copiar (CC) todos os demais integrantes do grupo.
 
 2. **Conteúdo**:
    - Códigos fonte (.java)

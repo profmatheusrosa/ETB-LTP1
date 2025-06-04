@@ -34,7 +34,7 @@ Desenvolver uma aplicação que:
    - Exibir histórico de descontos (objetos)
    - Apresentar estatísticas
 
-## Exemplo de Uso
+## Exemplo de uso
 ```
 === CALCULADORA DE DESCONTOS (POO) ===
 1. Calcular desconto
@@ -94,46 +94,10 @@ Programa finalizado!
 - Tipos de cliente: Regular (5%) e VIP (10%)
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
-## Critérios de Avaliação
-| Critério                               | Pontos |
-|---------------------------------------|--------|
-| **Funcionalidade (2.5)**              |        |
-| - Implementação dos requisitos        | 1.0    |
-| - Correto uso do array               | 1.0    |
-| - Precisão nos cálculos              | 0.5    |
-| **Qualidade do Código (1.5)**         |        |
-| - Organização e clareza              | 0.5    |
-| - Comentários e documentação         | 0.5    |
-| - Tratamento de erros               | 0.5    |
-| **Interface e Usabilidade (1.0)**     |        |
-| - Clareza nas mensagens             | 1.0    |
-| **Apresentação (5.0)**                |        |
-| - Domínio do código                 | 2.0    |
-| - Explicação da lógica              | 2.0    |
-| - Respostas às perguntas            | 1.0    |
-| **Total**                             | 10.0   |
-
-### Observações da Avaliação
-- Nota mínima para aprovação: 5.0 pontos
-- Trabalhos não apresentados recebem nota zero
-- Leitura durante apresentação recebe nota zero
-- Membros ausentes recebem nota zero
-- Códigos que não executam recebem nota zero
-- Cada membro deve apresentar
-- A nota da apresentação será individual
-- Demonstração prática obrigatória
-
-## Instruções de Entrega
-1. **Email**:
-   - Para: matheusluis103@gmail.com
-   - Assunto: "ETB-LTP1-ProjetoA2-[TURMA][GRUPO]"
-   - Até: 30/05, 14:00
-
-2. **Conteúdo**:
-   - Códigos fonte (.java)
-   - Nomes dos integrantes
-
 ## Diagrama UML
+
+> **Sugestão:** O diagrama UML abaixo é apenas uma sugestão de implementação. Você pode estruturar suas classes de outra forma, desde que todos os requisitos do projeto sejam atendidos.
+
 ```mermaid
 classDiagram
     class Desconto {
@@ -182,8 +146,49 @@ classDiagram
     CalculadoraDesconto --> Desconto
 ```
 
+## Explicação do diagrama
 O diagrama acima representa:
 - `Desconto`: Classe abstrata base com atributos e métodos comuns
 - `Calculavel`: Interface que define os métodos de cálculo de desconto
 - Classes concretas: `ClienteRegular` e `ClienteVIP` que herdam de `Desconto` e implementam `Calculavel`
 - `CalculadoraDesconto`: Classe principal que gerencia os cálculos e o histórico usando um vetor de tamanho fixo
+
+## Critérios de Avaliação
+| Critério                               | Pontos |
+|---------------------------------------|--------|
+| **Funcionalidade (2.5)**              |        |
+| - Implementação dos requisitos        | 1.0    |
+| - Correto uso do array               | 1.0    |
+| - Precisão nos cálculos              | 0.5    |
+| **Qualidade do Código (1.5)**         |        |
+| - Organização e clareza              | 0.5    |
+| - Comentários e documentação         | 0.5    |
+| - Tratamento de erros               | 0.5    |
+| **Interface e Usabilidade (1.0)**     |        |
+| - Clareza nas mensagens             | 1.0    |
+| **Apresentação (5.0)**                |        |
+| - Domínio do código                 | 2.0    |
+| - Explicação da lógica              | 2.0    |
+| - Respostas às perguntas            | 1.0    |
+| **Total**                             | 10.0   |
+
+### Observações da Avaliação
+- Nota mínima para aprovação: 5.0 pontos
+- Trabalhos não apresentados recebem nota zero
+- Leitura durante apresentação recebe nota zero
+- Membros ausentes recebem nota zero
+- Códigos que não executam recebem nota zero
+- Cada membro deve apresentar
+- A nota da apresentação será individual
+- Demonstração prática obrigatória
+
+## Instruções de Entrega
+1. **Email**:
+   - Para: matheusluis103@gmail.com
+   - Assunto: "ETB-LTP1-ProjetoA2-[TURMA][GRUPO]"
+   - Até: 30/05, 14:00
+   - O remetente do email deve copiar (CC) todos os demais integrantes do grupo.
+
+2. **Conteúdo**:
+   - Códigos fonte (.java)
+   - Nomes dos integrantes
