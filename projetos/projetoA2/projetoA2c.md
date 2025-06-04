@@ -103,9 +103,7 @@ Programa finalizado!
 - Armazenar apenas valores inteiros
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
-<<<<<<< HEAD
 ## Critérios de Avaliação
-
 | Critério                               | Pontos |
 |---------------------------------------|--------|
 | **Funcionalidade (2.5)**              |        |
@@ -134,7 +132,6 @@ Programa finalizado!
 - A nota da apresentação será individual
 - Demonstração prática obrigatória
 
-
 ## Instruções de Entrega
 1. **Email**:
    - Para: matheusluis103@gmail.com
@@ -144,9 +141,8 @@ Programa finalizado!
 2. **Conteúdo**:
    - Códigos fonte (.java)
    - Nomes dos integrantes
-=======
-## Diagrama UML
 
+## Diagrama UML
 ```mermaid
 classDiagram
     class MovimentacaoEstoque {
@@ -201,4 +197,3 @@ O diagrama acima representa:
 - `Processavel`: Interface que define os métodos de processamento e validação
 - Classes concretas: `Entrada` e `Saida` que herdam de `MovimentacaoEstoque` e implementam `Processavel`
 - `ControleEstoque`: Classe principal que gerencia as movimentações e o histórico usando um vetor de tamanho fixo
->>>>>>> d7946ad98fdf8391dae608ec92c7c7d07f722620

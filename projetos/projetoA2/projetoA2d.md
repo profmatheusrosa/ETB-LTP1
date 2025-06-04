@@ -94,9 +94,7 @@ Programa finalizado!
 - Tipos de cliente: Regular (5%) e VIP (10%)
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
-<<<<<<< HEAD
 ## Critérios de Avaliação
-
 | Critério                               | Pontos |
 |---------------------------------------|--------|
 | **Funcionalidade (2.5)**              |        |
@@ -125,7 +123,6 @@ Programa finalizado!
 - A nota da apresentação será individual
 - Demonstração prática obrigatória
 
-
 ## Instruções de Entrega
 1. **Email**:
    - Para: matheusluis103@gmail.com
@@ -135,9 +132,8 @@ Programa finalizado!
 2. **Conteúdo**:
    - Códigos fonte (.java)
    - Nomes dos integrantes
-=======
-## Diagrama UML
 
+## Diagrama UML
 ```mermaid
 classDiagram
     class Desconto {
@@ -191,4 +187,3 @@ O diagrama acima representa:
 - `Calculavel`: Interface que define os métodos de cálculo de desconto
 - Classes concretas: `ClienteRegular` e `ClienteVIP` que herdam de `Desconto` e implementam `Calculavel`
 - `CalculadoraDesconto`: Classe principal que gerencia os cálculos e o histórico usando um vetor de tamanho fixo
->>>>>>> d7946ad98fdf8391dae608ec92c7c7d07f722620

@@ -88,9 +88,7 @@ Programa finalizado!
 - Precisão de duas casas decimais nos cálculos
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
-<<<<<<< HEAD
 ## Critérios de Avaliação
-
 | Critério                               | Pontos |
 |---------------------------------------|--------|
 | **Funcionalidade (2.5)**              |        |
@@ -129,9 +127,8 @@ Programa finalizado!
 2. **Conteúdo**:
    - Códigos fonte (.java)
    - Nomes dos integrantes
-=======
-## Diagrama UML
 
+## Diagrama UML
 ```mermaid
 classDiagram
     class RegistroIMC {
@@ -187,4 +184,3 @@ O diagrama acima representa:
 - `Calculavel`: Interface que define os métodos de cálculo e classificação
 - Classes concretas: `Adulto` e `Idoso` que herdam de `RegistroIMC` e implementam `Calculavel`
 - `CalculadoraIMC`: Classe principal que gerencia os cálculos e o histórico usando um vetor de tamanho fixo
->>>>>>> d7946ad98fdf8391dae608ec92c7c7d07f722620

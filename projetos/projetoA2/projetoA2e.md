@@ -102,9 +102,7 @@ Programa finalizado!
 - Média 7.0 para aprovação
 - Utilize todos os conceitos de POO: Classes, Objetos, Atributos, Métodos, Construtores, Herança, Polimorfismo, Encapsulamento, Interface, Classe Abstrata e Sobrecarga de Métodos
 
-<<<<<<< HEAD
 ## Critérios de Avaliação
-
 | Critério                               | Pontos |
 |---------------------------------------|--------|
 | **Funcionalidade (2.5)**              |        |
@@ -133,7 +131,6 @@ Programa finalizado!
 - A nota da apresentação será individual
 - Demonstração prática obrigatória
 
-
 ## Instruções de Entrega
 1. **Email**:
    - Para: matheusluis103@gmail.com
@@ -143,9 +140,8 @@ Programa finalizado!
 2. **Conteúdo**:
    - Códigos fonte (.java)
    - Nomes dos integrantes
-=======
+   
 ## Diagrama UML
-
 ```mermaid
 classDiagram
     class Nota {
@@ -157,7 +153,6 @@ classDiagram
         +getValor() double
         +getStatus() String
         +getTipo() String
-        +verificarAprovacao() boolean
     }
 
     class Avaliavel {
@@ -199,4 +194,3 @@ O diagrama acima representa:
 - `Avaliavel`: Interface que define os métodos de cálculo de média e verificação de aprovação
 - Classes concretas: `Prova` e `Trabalho` que herdam de `Nota` e implementam `Avaliavel`
 - `CalculadoraNotas`: Classe principal que gerencia as notas e o histórico usando um vetor de tamanho fixo
->>>>>>> d7946ad98fdf8391dae608ec92c7c7d07f722620
