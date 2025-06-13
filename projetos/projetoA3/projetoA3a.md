@@ -44,7 +44,7 @@ Desenvolver uma aplicação console que:
 
 ## Exemplo de Uso
 ```
-=== CONVERSOR DE TEMPERATURA (POO/ArrayList) ===
+=== CONVERSOR DE TEMPERATURA 3.0 ===
 1. Converter temperatura
 2. Ver histórico
 3. Remover conversão
@@ -61,7 +61,7 @@ Unidade atual (C/F/K): C
 Converter para (C/F/K): F
 Resultado: 77°F
 
-=== CONVERSOR DE TEMPERATURA (POO/ArrayList) ===
+=== CONVERSOR DE TEMPERATURA 3.0 ===
 1. Converter temperatura
 2. Ver histórico
 3. Remover conversão
@@ -74,7 +74,7 @@ Escolha uma opção: 2
 1. 25.00°C -> 77.00°F
 2. 37.00°C -> 310.15K
 
-=== CONVERSOR DE TEMPERATURA (POO/ArrayList) ===
+=== CONVERSOR DE TEMPERATURA 3.0 ===
 1. Converter temperatura
 2. Ver histórico
 3. Remover conversão
@@ -86,7 +86,7 @@ Escolha uma opção: 3
 Digite o índice da conversão para remover: 2
 Conversão removida com sucesso!
 
-=== CONVERSOR DE TEMPERATURA (POO/ArrayList) ===
+=== CONVERSOR DE TEMPERATURA 3.0 ===
 1. Converter temperatura
 2. Ver histórico
 3. Remover conversão
@@ -97,7 +97,7 @@ Escolha uma opção: 4
 
 Histórico limpo!
 
-=== CONVERSOR DE TEMPERATURA (POO/ArrayList) ===
+=== CONVERSOR DE TEMPERATURA 3.0 ===
 1. Converter temperatura
 2. Ver histórico
 3. Remover conversão
@@ -112,7 +112,7 @@ Menor valor: 25.00°C
 Maior valor: 25.00°C
 Média: 25.00°C
 
-=== CONVERSOR DE TEMPERATURA (POO/ArrayList) ===
+=== CONVERSOR DE TEMPERATURA 3.0 ===
 1. Converter temperatura
 2. Ver histórico
 3. Remover conversão
@@ -149,7 +149,6 @@ Programa finalizado!
 | **Total**                             | 10.0   |
 
 ### Observações da Avaliação
-- Nota mínima para aprovação: 5.0 pontos
 - Trabalhos não apresentados recebem nota zero
 - Leitura durante apresentação recebe nota zero
 - Membros ausentes recebem nota zero

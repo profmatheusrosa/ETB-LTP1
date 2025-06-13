@@ -47,7 +47,7 @@ Implementar um sistema que:
 
 ## Exemplo de Uso
 ```
-=== CONTROLE DE ESTOQUE (POO/ArrayList) ===
+=== CONTROLE DE ESTOQUE 3.0 ===
 1. Registrar movimentação
 2. Ver histórico
 3. Remover movimentação
@@ -63,7 +63,7 @@ Digite a quantidade (+/-): 50
 Movimentação registrada!
 Saldo atual: 50 unidades
 
-=== CONTROLE DE ESTOQUE (POO/ArrayList) ===
+=== CONTROLE DE ESTOQUE 3.0 ===
 1. Registrar movimentação
 2. Ver histórico
 3. Remover movimentação
@@ -77,7 +77,7 @@ Escolha uma opção: 2
 2. -20 unidades (Saída)
 Saldo atual: 30 unidades
 
-=== CONTROLE DE ESTOQUE (POO/ArrayList) ===
+=== CONTROLE DE ESTOQUE 3.0 ===
 1. Registrar movimentação
 2. Ver histórico
 3. Remover movimentação
@@ -89,7 +89,7 @@ Escolha uma opção: 3
 Digite o índice da movimentação para remover: 2
 Movimentação removida com sucesso!
 
-=== CONTROLE DE ESTOQUE (POO/ArrayList) ===
+=== CONTROLE DE ESTOQUE 3.0 ===
 1. Registrar movimentação
 2. Ver histórico
 3. Remover movimentação
@@ -100,7 +100,7 @@ Escolha uma opção: 4
 
 Histórico limpo!
 
-=== CONTROLE DE ESTOQUE (POO/ArrayList) ===
+=== CONTROLE DE ESTOQUE 3.0 ===
 1. Registrar movimentação
 2. Ver histórico
 3. Remover movimentação
@@ -116,7 +116,7 @@ Maior saída: 0
 Média movimentações: 50
 Saldo atual: 50
 
-=== CONTROLE DE ESTOQUE (POO/ArrayList) ===
+=== CONTROLE DE ESTOQUE 3.0 ===
 1. Registrar movimentação
 2. Ver histórico
 3. Remover movimentação
@@ -153,7 +153,6 @@ Programa finalizado!
 | **Total**                             | 10.0   |
 
 ### Observações da Avaliação
-- Nota mínima para aprovação: 5.0 pontos
 - Trabalhos não apresentados recebem nota zero
 - Leitura durante apresentação recebe nota zero
 - Membros ausentes recebem nota zero

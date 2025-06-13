@@ -47,7 +47,7 @@ Desenvolver uma aplicação que:
 
 ## Exemplo de Uso
 ```
-=== CALCULADORA DE DESCONTOS (POO/ArrayList) ===
+=== CALCULADORA DE DESCONTOS 3.0 ===
 1. Calcular desconto
 2. Ver histórico
 3. Remover desconto
@@ -67,7 +67,7 @@ Valor original: R$ 100.00
 Desconto (10%): R$ 10.00
 Valor final: R$ 90.00
 
-=== CALCULADORA DE DESCONTOS (POO/ArrayList) ===
+=== CALCULADORA DE DESCONTOS 3.0 ===
 1. Calcular desconto
 2. Ver histórico
 3. Remover desconto
@@ -81,7 +81,7 @@ Escolha uma opção: 2
 2. R$ 25.00 (Regular)
 3. R$ 150.00 (VIP)
 
-=== CALCULADORA DE DESCONTOS (POO/ArrayList) ===
+=== CALCULADORA DE DESCONTOS 3.0 ===
 1. Calcular desconto
 2. Ver histórico
 3. Remover desconto
@@ -93,7 +93,7 @@ Escolha uma opção: 3
 Digite o índice do desconto para remover: 2
 Desconto removido com sucesso!
 
-=== CALCULADORA DE DESCONTOS (POO/ArrayList) ===
+=== CALCULADORA DE DESCONTOS 3.0 ===
 1. Calcular desconto
 2. Ver histórico
 3. Remover desconto
@@ -104,7 +104,7 @@ Escolha uma opção: 4
 
 Histórico limpo!
 
-=== CALCULADORA DE DESCONTOS (POO/ArrayList) ===
+=== CALCULADORA DE DESCONTOS 3.0 ===
 1. Calcular desconto
 2. Ver histórico
 3. Remover desconto
@@ -119,7 +119,7 @@ Maior desconto: R$ 150.00
 Menor desconto: R$ 10.00
 Média: R$ 61.67
 
-=== CALCULADORA DE DESCONTOS (POO/ArrayList) ===
+=== CALCULADORA DE DESCONTOS 3.0 ===
 1. Calcular desconto
 2. Ver histórico
 3. Remover desconto
@@ -156,7 +156,6 @@ Programa finalizado!
 | **Total**                             | 10.0   |
 
 ### Observações da Avaliação
-- Nota mínima para aprovação: 5.0 pontos
 - Trabalhos não apresentados recebem nota zero
 - Leitura durante apresentação recebe nota zero
 - Membros ausentes recebem nota zero

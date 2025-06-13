@@ -47,7 +47,7 @@ Desenvolver uma aplicação que:
 
 ## Exemplo de Uso
 ```
-=== CALCULADORA DE NOTAS (POO/ArrayList) ===
+=== CALCULADORA DE NOTAS 3.0 ===
 1. Inserir nota
 2. Ver histórico
 3. Remover nota
@@ -63,7 +63,7 @@ Digite a nota (0-10): 7.5
 Nota registrada!
 Status: APROVADO
 
-=== CALCULADORA DE NOTAS (POO/ArrayList) ===
+=== CALCULADORA DE NOTAS 3.0 ===
 1. Inserir nota
 2. Ver histórico
 3. Remover nota
@@ -76,7 +76,7 @@ Escolha uma opção: 2
 1. 7.50 (Aprovado) - Prova
 2. 5.00 (Reprovado) - Trabalho
 
-=== CALCULADORA DE NOTAS (POO/ArrayList) ===
+=== CALCULADORA DE NOTAS 3.0 ===
 1. Inserir nota
 2. Ver histórico
 3. Remover nota
@@ -88,7 +88,7 @@ Escolha uma opção: 3
 Digite o índice da nota para remover: 2
 Nota removida com sucesso!
 
-=== CALCULADORA DE NOTAS (POO/ArrayList) ===
+=== CALCULADORA DE NOTAS 3.0 ===
 1. Inserir nota
 2. Ver histórico
 3. Remover nota
@@ -99,7 +99,7 @@ Escolha uma opção: 4
 
 Histórico limpo!
 
-=== CALCULADORA DE NOTAS (POO/ArrayList) ===
+=== CALCULADORA DE NOTAS 3.0 ===
 1. Inserir nota
 2. Ver histórico
 3. Remover nota
@@ -116,7 +116,7 @@ Média: 7.50
 Aprovados: 1 (100%)
 Reprovados: 0 (0%)
 
-=== CALCULADORA DE NOTAS (POO/ArrayList) ===
+=== CALCULADORA DE NOTAS 3.0 ===
 1. Inserir nota
 2. Ver histórico
 3. Remover nota
@@ -153,7 +153,6 @@ Programa finalizado!
 | **Total**                             | 10.0   |
 
 ### Observações da Avaliação
-- Nota mínima para aprovação: 5.0 pontos
 - Trabalhos não apresentados recebem nota zero
 - Leitura durante apresentação recebe nota zero
 - Membros ausentes recebem nota zero

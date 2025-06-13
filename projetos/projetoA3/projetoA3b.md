@@ -1,7 +1,7 @@
 # Projeto Prático III-B: Calculadora de IMC com ArrayList e Exceções Personalizadas
 
 ## Objetivo
-Aprimorar os conceitos de Programação Orientada a Objetos (POO) em Java, incluindo o uso de `ArrayList`, principais métodos de coleções, tratamento de exceções e criação de exceções personalizadas, além dos conceitos já praticados anteriormente (Classes, Objetos, Herança, Polimorfismo, Interface, Classe Abstrata, Sobrecarga de Métodos).
+Aprimorar os conceitos de Programação Orientada a Objetos (POO) em Java, incluindo o uso de `ArrayList` e seus principais métodos, tratamento de exceções e criação de exceções personalizadas, além dos conceitos já praticados anteriormente (Classes, Objetos, Herança, Polimorfismo, Interface, Classe Abstrata, Sobrecarga de Métodos).
 
 ## Descrição
 Desenvolver uma aplicação console que:
@@ -154,7 +154,6 @@ Programa finalizado!
 | **Total**                             | 10.0   |
 
 ### Observações da Avaliação
-- Nota mínima para aprovação: 5.0 pontos
 - Trabalhos não apresentados recebem nota zero
 - Leitura durante apresentação recebe nota zero
 - Membros ausentes recebem nota zero
