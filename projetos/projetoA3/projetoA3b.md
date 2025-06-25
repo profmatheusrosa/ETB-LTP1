@@ -174,6 +174,7 @@ Programa finalizado!
    - Nomes dos integrantes
 
 ## Diagrama UML
+> **Sugestão:** O diagrama UML abaixo é apenas uma sugestão de implementação. Você pode estruturar suas classes de outra forma, desde que todos os requisitos do projeto sejam atendidos.
 ```mermaid
 classDiagram
     class RegistroIMC {
